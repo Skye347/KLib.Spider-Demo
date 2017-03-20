@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  rssgenerator:
+    image: rssgenerator
+    build:
+      context: ./RssGenerator
+      dockerfile: Dockerfile
